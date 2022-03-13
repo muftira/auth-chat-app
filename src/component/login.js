@@ -28,8 +28,8 @@ function Auth() {
 
   return (
     <div className="h-screen w-screen bg-gradient-to-r from-white via-base to-white flex flex-col justify-center items-center">
-      <p className="mb-28 font-bold text-6xl text-black">Muftira Chat</p>
-      <div className="h-96 w-96  bg-white rounded-3xl flex justify-center items-center flex-col shadow-xl shadow-slate-600">
+      <p className="mb-28 font-bold md:text-6xl text-4xl text-black">Muftira Chat</p>
+      <div className="md:h-96 md:w-96 h-80 w-80 bg-white rounded-3xl flex justify-center items-center flex-col shadow-xl shadow-slate-600">
         <div>
           <p>Username</p>
           <input 
